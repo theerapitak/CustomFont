@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E18F7915A6CB9F004AA329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F7815A6CB9F004AA329 /* UIKit.framework */; };
+		C1E18F7B15A6CB9F004AA329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F7A15A6CB9F004AA329 /* Foundation.framework */; };
+		C1E18F7D15A6CB9F004AA329 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F7C15A6CB9F004AA329 /* CoreGraphics.framework */; };
+		C1E18F8315A6CB9F004AA329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E18F8115A6CB9F004AA329 /* InfoPlist.strings */; };
+		C1E18F8515A6CB9F004AA329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E18F8415A6CB9F004AA329 /* main.m */; };
+		C1E18F8915A6CB9F004AA329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E18F8815A6CB9F004AA329 /* AppDelegate.m */; };
+		C1E18F9115A6CB9F004AA329 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F9015A6CB9F004AA329 /* SenTestingKit.framework */; };
+		C1E18F9215A6CB9F004AA329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F7815A6CB9F004AA329 /* UIKit.framework */; };
+		C1E18F9315A6CB9F004AA329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E18F7A15A6CB9F004AA329 /* Foundation.framework */; };
+		C1E18F9B15A6CB9F004AA329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E18F9915A6CB9F004AA329 /* InfoPlist.strings */; };
+		C1E18F9E15A6CB9F004AA329 /* CustomFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E18F9D15A6CB9F004AA329 /* CustomFontTests.m */; };
+		C1E18FA915A6CCBF004AA329 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E18FA815A6CCBF004AA329 /* RootViewController.m */; };
+		C1E18FD815A6CF4B004AA329 /* TH Baijam Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FAB15A6CF4B004AA329 /* TH Baijam Bold Italic.ttf */; };
+		C1E18FD915A6CF4B004AA329 /* TH Baijam Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FAC15A6CF4B004AA329 /* TH Baijam Bold.ttf */; };
+		C1E18FDA15A6CF4B004AA329 /* TH Baijam Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FAD15A6CF4B004AA329 /* TH Baijam Italic.ttf */; };
+		C1E18FDB15A6CF4B004AA329 /* TH Baijam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FAE15A6CF4B004AA329 /* TH Baijam.ttf */; };
+		C1E18FDC15A6CF4B004AA329 /* TH Chakra Petch Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FAF15A6CF4B004AA329 /* TH Chakra Petch Bold Italic.ttf */; };
+		C1E18FDD15A6CF4B004AA329 /* TH Chakra Petch Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB015A6CF4B004AA329 /* TH Chakra Petch Bold.ttf */; };
+		C1E18FDE15A6CF4B004AA329 /* TH Chakra Petch Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB115A6CF4B004AA329 /* TH Chakra Petch Italic.ttf */; };
+		C1E18FDF15A6CF4B004AA329 /* TH Chakra Petch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB215A6CF4B004AA329 /* TH Chakra Petch.ttf */; };
+		C1E18FE015A6CF4B004AA329 /* TH Charm of AU.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB315A6CF4B004AA329 /* TH Charm of AU.ttf */; };
+		C1E18FE115A6CF4B004AA329 /* TH Charmonman Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB415A6CF4B004AA329 /* TH Charmonman Bold.ttf */; };
+		C1E18FE215A6CF4B004AA329 /* TH Charmonman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB515A6CF4B004AA329 /* TH Charmonman.ttf */; };
+		C1E18FE315A6CF4B004AA329 /* TH Fahkwang Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB615A6CF4B004AA329 /* TH Fahkwang Bold Italic.ttf */; };
+		C1E18FE415A6CF4B004AA329 /* TH Fahkwang Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB715A6CF4B004AA329 /* TH Fahkwang Bold.ttf */; };
+		C1E18FE515A6CF4B004AA329 /* TH Fahkwang Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB815A6CF4B004AA329 /* TH Fahkwang Italic.ttf */; };
+		C1E18FE615A6CF4B004AA329 /* TH Fahkwang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FB915A6CF4B004AA329 /* TH Fahkwang.ttf */; };
+		C1E18FE715A6CF4B004AA329 /* TH K2D July8 Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBA15A6CF4B004AA329 /* TH K2D July8 Bold Italic.ttf */; };
+		C1E18FE815A6CF4B004AA329 /* TH K2D July8 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBB15A6CF4B004AA329 /* TH K2D July8 Bold.ttf */; };
+		C1E18FE915A6CF4B004AA329 /* TH K2D July8 Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBC15A6CF4B004AA329 /* TH K2D July8 Italic.ttf */; };
+		C1E18FEA15A6CF4B004AA329 /* TH K2D July8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBD15A6CF4B004AA329 /* TH K2D July8.ttf */; };
+		C1E18FEB15A6CF4B004AA329 /* TH Kodchasal Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBE15A6CF4B004AA329 /* TH Kodchasal Bold Italic.ttf */; };
+		C1E18FEC15A6CF4B004AA329 /* TH Kodchasal Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FBF15A6CF4B004AA329 /* TH Kodchasal Bold.ttf */; };
+		C1E18FED15A6CF4B004AA329 /* TH Kodchasal Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC015A6CF4B004AA329 /* TH Kodchasal Italic.ttf */; };
+		C1E18FEE15A6CF4B004AA329 /* TH Kodchasal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC115A6CF4B004AA329 /* TH Kodchasal.ttf */; };
+		C1E18FEF15A6CF4B004AA329 /* TH KoHo Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC215A6CF4B004AA329 /* TH KoHo Bold Italic.ttf */; };
+		C1E18FF015A6CF4B004AA329 /* TH KoHo Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC315A6CF4B004AA329 /* TH KoHo Bold.ttf */; };
+		C1E18FF115A6CF4B004AA329 /* TH KoHo Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC415A6CF4B004AA329 /* TH KoHo Italic.ttf */; };
+		C1E18FF215A6CF4B004AA329 /* TH KoHo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC515A6CF4B004AA329 /* TH KoHo.ttf */; };
+		C1E18FF315A6CF4B004AA329 /* TH Krub Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC615A6CF4B004AA329 /* TH Krub Bold Italic.ttf */; };
+		C1E18FF415A6CF4B004AA329 /* TH Krub Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC715A6CF4B004AA329 /* TH Krub Bold.ttf */; };
+		C1E18FF515A6CF4B004AA329 /* TH Krub Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC815A6CF4B004AA329 /* TH Krub Italic.ttf */; };
+		C1E18FF615A6CF4B004AA329 /* TH Krub.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FC915A6CF4B004AA329 /* TH Krub.ttf */; };
+		C1E18FF715A6CF4B004AA329 /* TH Mali Grade6 Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCA15A6CF4B004AA329 /* TH Mali Grade6 Bold Italic.ttf */; };
+		C1E18FF815A6CF4B004AA329 /* TH Mali Grade6 Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCB15A6CF4B004AA329 /* TH Mali Grade6 Bold.ttf */; };
+		C1E18FF915A6CF4B004AA329 /* TH Mali Grade6 Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCC15A6CF4B004AA329 /* TH Mali Grade6 Italic.ttf */; };
+		C1E18FFA15A6CF4B004AA329 /* TH Mali Grade6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCD15A6CF4B004AA329 /* TH Mali Grade6.ttf */; };
+		C1E18FFB15A6CF4B004AA329 /* TH Niramit AS Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCE15A6CF4B004AA329 /* TH Niramit AS Bold Italic.ttf */; };
+		C1E18FFC15A6CF4B004AA329 /* TH Niramit AS Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FCF15A6CF4B004AA329 /* TH Niramit AS Bold.ttf */; };
+		C1E18FFD15A6CF4B004AA329 /* TH Niramit AS Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD015A6CF4B004AA329 /* TH Niramit AS Italic.ttf */; };
+		C1E18FFE15A6CF4B004AA329 /* TH Niramit AS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD115A6CF4B004AA329 /* TH Niramit AS.ttf */; };
+		C1E18FFF15A6CF4B004AA329 /* TH Srisakdi Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD215A6CF4B004AA329 /* TH Srisakdi Bold.ttf */; };
+		C1E1900015A6CF4B004AA329 /* TH Srisakdi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD315A6CF4B004AA329 /* TH Srisakdi.ttf */; };
+		C1E1900115A6CF4B004AA329 /* THSarabun Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD415A6CF4B004AA329 /* THSarabun Bold.ttf */; };
+		C1E1900215A6CF4B004AA329 /* THSarabun BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD515A6CF4B004AA329 /* THSarabun BoldItalic.ttf */; };
+		C1E1900315A6CF4B004AA329 /* THSarabun Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD615A6CF4B004AA329 /* THSarabun Italic.ttf */; };
+		C1E1900415A6CF4B004AA329 /* THSarabun.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E18FD715A6CF4B004AA329 /* THSarabun.ttf */; };
+		C1E1900E15A6DE0B004AA329 /* fontsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1E1900D15A6DE0A004AA329 /* fontsList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E18F9415A6CB9F004AA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E18F6B15A6CB9F004AA329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E18F7315A6CB9F004AA329;
+			remoteInfo = CustomFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1E18F7415A6CB9F004AA329 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E18F7815A6CB9F004AA329 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1E18F7A15A6CB9F004AA329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1E18F7C15A6CB9F004AA329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1E18F8015A6CB9F004AA329 /* CustomFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFont-Info.plist"; sourceTree = "<group>"; };
+		C1E18F8215A6CB9F004AA329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1E18F8415A6CB9F004AA329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1E18F8615A6CB9F004AA329 /* CustomFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomFont-Prefix.pch"; sourceTree = "<group>"; };
+		C1E18F8715A6CB9F004AA329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1E18F8815A6CB9F004AA329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1E18F8F15A6CB9F004AA329 /* CustomFontTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E18F9015A6CB9F004AA329 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1E18F9815A6CB9F004AA329 /* CustomFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFontTests-Info.plist"; sourceTree = "<group>"; };
+		C1E18F9A15A6CB9F004AA329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1E18F9C15A6CB9F004AA329 /* CustomFontTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFontTests.h; sourceTree = "<group>"; };
+		C1E18F9D15A6CB9F004AA329 /* CustomFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontTests.m; sourceTree = "<group>"; };
+		C1E18FA715A6CCBF004AA329 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C1E18FA815A6CCBF004AA329 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C1E18FAB15A6CF4B004AA329 /* TH Baijam Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Baijam Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FAC15A6CF4B004AA329 /* TH Baijam Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Baijam Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FAD15A6CF4B004AA329 /* TH Baijam Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Baijam Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FAE15A6CF4B004AA329 /* TH Baijam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Baijam.ttf"; sourceTree = "<group>"; };
+		C1E18FAF15A6CF4B004AA329 /* TH Chakra Petch Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Chakra Petch Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FB015A6CF4B004AA329 /* TH Chakra Petch Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Chakra Petch Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FB115A6CF4B004AA329 /* TH Chakra Petch Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Chakra Petch Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FB215A6CF4B004AA329 /* TH Chakra Petch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Chakra Petch.ttf"; sourceTree = "<group>"; };
+		C1E18FB315A6CF4B004AA329 /* TH Charm of AU.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Charm of AU.ttf"; sourceTree = "<group>"; };
+		C1E18FB415A6CF4B004AA329 /* TH Charmonman Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Charmonman Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FB515A6CF4B004AA329 /* TH Charmonman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Charmonman.ttf"; sourceTree = "<group>"; };
+		C1E18FB615A6CF4B004AA329 /* TH Fahkwang Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Fahkwang Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FB715A6CF4B004AA329 /* TH Fahkwang Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Fahkwang Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FB815A6CF4B004AA329 /* TH Fahkwang Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Fahkwang Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FB915A6CF4B004AA329 /* TH Fahkwang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Fahkwang.ttf"; sourceTree = "<group>"; };
+		C1E18FBA15A6CF4B004AA329 /* TH K2D July8 Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH K2D July8 Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FBB15A6CF4B004AA329 /* TH K2D July8 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH K2D July8 Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FBC15A6CF4B004AA329 /* TH K2D July8 Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH K2D July8 Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FBD15A6CF4B004AA329 /* TH K2D July8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH K2D July8.ttf"; sourceTree = "<group>"; };
+		C1E18FBE15A6CF4B004AA329 /* TH Kodchasal Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Kodchasal Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FBF15A6CF4B004AA329 /* TH Kodchasal Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Kodchasal Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FC015A6CF4B004AA329 /* TH Kodchasal Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Kodchasal Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FC115A6CF4B004AA329 /* TH Kodchasal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Kodchasal.ttf"; sourceTree = "<group>"; };
+		C1E18FC215A6CF4B004AA329 /* TH KoHo Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH KoHo Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FC315A6CF4B004AA329 /* TH KoHo Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH KoHo Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FC415A6CF4B004AA329 /* TH KoHo Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH KoHo Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FC515A6CF4B004AA329 /* TH KoHo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH KoHo.ttf"; sourceTree = "<group>"; };
+		C1E18FC615A6CF4B004AA329 /* TH Krub Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Krub Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FC715A6CF4B004AA329 /* TH Krub Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Krub Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FC815A6CF4B004AA329 /* TH Krub Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Krub Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FC915A6CF4B004AA329 /* TH Krub.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Krub.ttf"; sourceTree = "<group>"; };
+		C1E18FCA15A6CF4B004AA329 /* TH Mali Grade6 Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Mali Grade6 Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FCB15A6CF4B004AA329 /* TH Mali Grade6 Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Mali Grade6 Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FCC15A6CF4B004AA329 /* TH Mali Grade6 Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Mali Grade6 Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FCD15A6CF4B004AA329 /* TH Mali Grade6.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Mali Grade6.ttf"; sourceTree = "<group>"; };
+		C1E18FCE15A6CF4B004AA329 /* TH Niramit AS Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Niramit AS Bold Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FCF15A6CF4B004AA329 /* TH Niramit AS Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Niramit AS Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FD015A6CF4B004AA329 /* TH Niramit AS Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Niramit AS Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FD115A6CF4B004AA329 /* TH Niramit AS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Niramit AS.ttf"; sourceTree = "<group>"; };
+		C1E18FD215A6CF4B004AA329 /* TH Srisakdi Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Srisakdi Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FD315A6CF4B004AA329 /* TH Srisakdi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TH Srisakdi.ttf"; sourceTree = "<group>"; };
+		C1E18FD415A6CF4B004AA329 /* THSarabun Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THSarabun Bold.ttf"; sourceTree = "<group>"; };
+		C1E18FD515A6CF4B004AA329 /* THSarabun BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THSarabun BoldItalic.ttf"; sourceTree = "<group>"; };
+		C1E18FD615A6CF4B004AA329 /* THSarabun Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THSarabun Italic.ttf"; sourceTree = "<group>"; };
+		C1E18FD715A6CF4B004AA329 /* THSarabun.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = THSarabun.ttf; sourceTree = "<group>"; };
+		C1E1900D15A6DE0A004AA329 /* fontsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontsList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E18F7115A6CB9F004AA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F7915A6CB9F004AA329 /* UIKit.framework in Frameworks */,
+				C1E18F7B15A6CB9F004AA329 /* Foundation.framework in Frameworks */,
+				C1E18F7D15A6CB9F004AA329 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E18F8B15A6CB9F004AA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F9115A6CB9F004AA329 /* SenTestingKit.framework in Frameworks */,
+				C1E18F9215A6CB9F004AA329 /* UIKit.framework in Frameworks */,
+				C1E18F9315A6CB9F004AA329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E18F6915A6CB9F004AA329 = {
+			isa = PBXGroup;
+			children = (
+				C1E18FAA15A6CF4B004AA329 /* Fonts */,
+				C1E18F7E15A6CB9F004AA329 /* CustomFont */,
+				C1E18F9615A6CB9F004AA329 /* CustomFontTests */,
+				C1E18F7715A6CB9F004AA329 /* Frameworks */,
+				C1E18F7515A6CB9F004AA329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E18F7515A6CB9F004AA329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F7415A6CB9F004AA329 /* CustomFont.app */,
+				C1E18F8F15A6CB9F004AA329 /* CustomFontTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E18F7715A6CB9F004AA329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F7815A6CB9F004AA329 /* UIKit.framework */,
+				C1E18F7A15A6CB9F004AA329 /* Foundation.framework */,
+				C1E18F7C15A6CB9F004AA329 /* CoreGraphics.framework */,
+				C1E18F9015A6CB9F004AA329 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E18F7E15A6CB9F004AA329 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F8715A6CB9F004AA329 /* AppDelegate.h */,
+				C1E18F8815A6CB9F004AA329 /* AppDelegate.m */,
+				C1E18FA715A6CCBF004AA329 /* RootViewController.h */,
+				C1E18FA815A6CCBF004AA329 /* RootViewController.m */,
+				C1E18F7F15A6CB9F004AA329 /* Supporting Files */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		C1E18F7F15A6CB9F004AA329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F8015A6CB9F004AA329 /* CustomFont-Info.plist */,
+				C1E18F8115A6CB9F004AA329 /* InfoPlist.strings */,
+				C1E18F8415A6CB9F004AA329 /* main.m */,
+				C1E18F8615A6CB9F004AA329 /* CustomFont-Prefix.pch */,
+				C1E1900D15A6DE0A004AA329 /* fontsList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1E18F9615A6CB9F004AA329 /* CustomFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F9C15A6CB9F004AA329 /* CustomFontTests.h */,
+				C1E18F9D15A6CB9F004AA329 /* CustomFontTests.m */,
+				C1E18F9715A6CB9F004AA329 /* Supporting Files */,
+			);
+			path = CustomFontTests;
+			sourceTree = "<group>";
+		};
+		C1E18F9715A6CB9F004AA329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18F9815A6CB9F004AA329 /* CustomFontTests-Info.plist */,
+				C1E18F9915A6CB9F004AA329 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1E18FAA15A6CF4B004AA329 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C1E18FAB15A6CF4B004AA329 /* TH Baijam Bold Italic.ttf */,
+				C1E18FAC15A6CF4B004AA329 /* TH Baijam Bold.ttf */,
+				C1E18FAD15A6CF4B004AA329 /* TH Baijam Italic.ttf */,
+				C1E18FAE15A6CF4B004AA329 /* TH Baijam.ttf */,
+				C1E18FAF15A6CF4B004AA329 /* TH Chakra Petch Bold Italic.ttf */,
+				C1E18FB015A6CF4B004AA329 /* TH Chakra Petch Bold.ttf */,
+				C1E18FB115A6CF4B004AA329 /* TH Chakra Petch Italic.ttf */,
+				C1E18FB215A6CF4B004AA329 /* TH Chakra Petch.ttf */,
+				C1E18FB315A6CF4B004AA329 /* TH Charm of AU.ttf */,
+				C1E18FB415A6CF4B004AA329 /* TH Charmonman Bold.ttf */,
+				C1E18FB515A6CF4B004AA329 /* TH Charmonman.ttf */,
+				C1E18FB615A6CF4B004AA329 /* TH Fahkwang Bold Italic.ttf */,
+				C1E18FB715A6CF4B004AA329 /* TH Fahkwang Bold.ttf */,
+				C1E18FB815A6CF4B004AA329 /* TH Fahkwang Italic.ttf */,
+				C1E18FB915A6CF4B004AA329 /* TH Fahkwang.ttf */,
+				C1E18FBA15A6CF4B004AA329 /* TH K2D July8 Bold Italic.ttf */,
+				C1E18FBB15A6CF4B004AA329 /* TH K2D July8 Bold.ttf */,
+				C1E18FBC15A6CF4B004AA329 /* TH K2D July8 Italic.ttf */,
+				C1E18FBD15A6CF4B004AA329 /* TH K2D July8.ttf */,
+				C1E18FBE15A6CF4B004AA329 /* TH Kodchasal Bold Italic.ttf */,
+				C1E18FBF15A6CF4B004AA329 /* TH Kodchasal Bold.ttf */,
+				C1E18FC015A6CF4B004AA329 /* TH Kodchasal Italic.ttf */,
+				C1E18FC115A6CF4B004AA329 /* TH Kodchasal.ttf */,
+				C1E18FC215A6CF4B004AA329 /* TH KoHo Bold Italic.ttf */,
+				C1E18FC315A6CF4B004AA329 /* TH KoHo Bold.ttf */,
+				C1E18FC415A6CF4B004AA329 /* TH KoHo Italic.ttf */,
+				C1E18FC515A6CF4B004AA329 /* TH KoHo.ttf */,
+				C1E18FC615A6CF4B004AA329 /* TH Krub Bold Italic.ttf */,
+				C1E18FC715A6CF4B004AA329 /* TH Krub Bold.ttf */,
+				C1E18FC815A6CF4B004AA329 /* TH Krub Italic.ttf */,
+				C1E18FC915A6CF4B004AA329 /* TH Krub.ttf */,
+				C1E18FCA15A6CF4B004AA329 /* TH Mali Grade6 Bold Italic.ttf */,
+				C1E18FCB15A6CF4B004AA329 /* TH Mali Grade6 Bold.ttf */,
+				C1E18FCC15A6CF4B004AA329 /* TH Mali Grade6 Italic.ttf */,
+				C1E18FCD15A6CF4B004AA329 /* TH Mali Grade6.ttf */,
+				C1E18FCE15A6CF4B004AA329 /* TH Niramit AS Bold Italic.ttf */,
+				C1E18FCF15A6CF4B004AA329 /* TH Niramit AS Bold.ttf */,
+				C1E18FD015A6CF4B004AA329 /* TH Niramit AS Italic.ttf */,
+				C1E18FD115A6CF4B004AA329 /* TH Niramit AS.ttf */,
+				C1E18FD215A6CF4B004AA329 /* TH Srisakdi Bold.ttf */,
+				C1E18FD315A6CF4B004AA329 /* TH Srisakdi.ttf */,
+				C1E18FD415A6CF4B004AA329 /* THSarabun Bold.ttf */,
+				C1E18FD515A6CF4B004AA329 /* THSarabun BoldItalic.ttf */,
+				C1E18FD615A6CF4B004AA329 /* THSarabun Italic.ttf */,
+				C1E18FD715A6CF4B004AA329 /* THSarabun.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E18F7315A6CB9F004AA329 /* CustomFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E18FA115A6CB9F004AA329 /* Build configuration list for PBXNativeTarget "CustomFont" */;
+			buildPhases = (
+				C1E18F7015A6CB9F004AA329 /* Sources */,
+				C1E18F7115A6CB9F004AA329 /* Frameworks */,
+				C1E18F7215A6CB9F004AA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFont;
+			productName = CustomFont;
+			productReference = C1E18F7415A6CB9F004AA329 /* CustomFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E18F8E15A6CB9F004AA329 /* CustomFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E18FA415A6CB9F004AA329 /* Build configuration list for PBXNativeTarget "CustomFontTests" */;
+			buildPhases = (
+				C1E18F8A15A6CB9F004AA329 /* Sources */,
+				C1E18F8B15A6CB9F004AA329 /* Frameworks */,
+				C1E18F8C15A6CB9F004AA329 /* Resources */,
+				C1E18F8D15A6CB9F004AA329 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E18F9515A6CB9F004AA329 /* PBXTargetDependency */,
+			);
+			name = CustomFontTests;
+			productName = CustomFontTests;
+			productReference = C1E18F8F15A6CB9F004AA329 /* CustomFontTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E18F6B15A6CB9F004AA329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C1E18F6E15A6CB9F004AA329 /* Build configuration list for PBXProject "CustomFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1E18F6915A6CB9F004AA329;
+			productRefGroup = C1E18F7515A6CB9F004AA329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E18F7315A6CB9F004AA329 /* CustomFont */,
+				C1E18F8E15A6CB9F004AA329 /* CustomFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E18F7215A6CB9F004AA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F8315A6CB9F004AA329 /* InfoPlist.strings in Resources */,
+				C1E18FD815A6CF4B004AA329 /* TH Baijam Bold Italic.ttf in Resources */,
+				C1E18FD915A6CF4B004AA329 /* TH Baijam Bold.ttf in Resources */,
+				C1E18FDA15A6CF4B004AA329 /* TH Baijam Italic.ttf in Resources */,
+				C1E18FDB15A6CF4B004AA329 /* TH Baijam.ttf in Resources */,
+				C1E18FDC15A6CF4B004AA329 /* TH Chakra Petch Bold Italic.ttf in Resources */,
+				C1E18FDD15A6CF4B004AA329 /* TH Chakra Petch Bold.ttf in Resources */,
+				C1E18FDE15A6CF4B004AA329 /* TH Chakra Petch Italic.ttf in Resources */,
+				C1E18FDF15A6CF4B004AA329 /* TH Chakra Petch.ttf in Resources */,
+				C1E18FE015A6CF4B004AA329 /* TH Charm of AU.ttf in Resources */,
+				C1E18FE115A6CF4B004AA329 /* TH Charmonman Bold.ttf in Resources */,
+				C1E18FE215A6CF4B004AA329 /* TH Charmonman.ttf in Resources */,
+				C1E18FE315A6CF4B004AA329 /* TH Fahkwang Bold Italic.ttf in Resources */,
+				C1E18FE415A6CF4B004AA329 /* TH Fahkwang Bold.ttf in Resources */,
+				C1E18FE515A6CF4B004AA329 /* TH Fahkwang Italic.ttf in Resources */,
+				C1E18FE615A6CF4B004AA329 /* TH Fahkwang.ttf in Resources */,
+				C1E18FE715A6CF4B004AA329 /* TH K2D July8 Bold Italic.ttf in Resources */,
+				C1E18FE815A6CF4B004AA329 /* TH K2D July8 Bold.ttf in Resources */,
+				C1E18FE915A6CF4B004AA329 /* TH K2D July8 Italic.ttf in Resources */,
+				C1E18FEA15A6CF4B004AA329 /* TH K2D July8.ttf in Resources */,
+				C1E18FEB15A6CF4B004AA329 /* TH Kodchasal Bold Italic.ttf in Resources */,
+				C1E18FEC15A6CF4B004AA329 /* TH Kodchasal Bold.ttf in Resources */,
+				C1E18FED15A6CF4B004AA329 /* TH Kodchasal Italic.ttf in Resources */,
+				C1E18FEE15A6CF4B004AA329 /* TH Kodchasal.ttf in Resources */,
+				C1E18FEF15A6CF4B004AA329 /* TH KoHo Bold Italic.ttf in Resources */,
+				C1E18FF015A6CF4B004AA329 /* TH KoHo Bold.ttf in Resources */,
+				C1E18FF115A6CF4B004AA329 /* TH KoHo Italic.ttf in Resources */,
+				C1E18FF215A6CF4B004AA329 /* TH KoHo.ttf in Resources */,
+				C1E18FF315A6CF4B004AA329 /* TH Krub Bold Italic.ttf in Resources */,
+				C1E18FF415A6CF4B004AA329 /* TH Krub Bold.ttf in Resources */,
+				C1E18FF515A6CF4B004AA329 /* TH Krub Italic.ttf in Resources */,
+				C1E18FF615A6CF4B004AA329 /* TH Krub.ttf in Resources */,
+				C1E18FF715A6CF4B004AA329 /* TH Mali Grade6 Bold Italic.ttf in Resources */,
+				C1E18FF815A6CF4B004AA329 /* TH Mali Grade6 Bold.ttf in Resources */,
+				C1E18FF915A6CF4B004AA329 /* TH Mali Grade6 Italic.ttf in Resources */,
+				C1E18FFA15A6CF4B004AA329 /* TH Mali Grade6.ttf in Resources */,
+				C1E18FFB15A6CF4B004AA329 /* TH Niramit AS Bold Italic.ttf in Resources */,
+				C1E18FFC15A6CF4B004AA329 /* TH Niramit AS Bold.ttf in Resources */,
+				C1E18FFD15A6CF4B004AA329 /* TH Niramit AS Italic.ttf in Resources */,
+				C1E18FFE15A6CF4B004AA329 /* TH Niramit AS.ttf in Resources */,
+				C1E18FFF15A6CF4B004AA329 /* TH Srisakdi Bold.ttf in Resources */,
+				C1E1900015A6CF4B004AA329 /* TH Srisakdi.ttf in Resources */,
+				C1E1900115A6CF4B004AA329 /* THSarabun Bold.ttf in Resources */,
+				C1E1900215A6CF4B004AA329 /* THSarabun BoldItalic.ttf in Resources */,
+				C1E1900315A6CF4B004AA329 /* THSarabun Italic.ttf in Resources */,
+				C1E1900415A6CF4B004AA329 /* THSarabun.ttf in Resources */,
+				C1E1900E15A6DE0B004AA329 /* fontsList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E18F8C15A6CB9F004AA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F9B15A6CB9F004AA329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1E18F8D15A6CB9F004AA329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E18F7015A6CB9F004AA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F8515A6CB9F004AA329 /* main.m in Sources */,
+				C1E18F8915A6CB9F004AA329 /* AppDelegate.m in Sources */,
+				C1E18FA915A6CCBF004AA329 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E18F8A15A6CB9F004AA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E18F9E15A6CB9F004AA329 /* CustomFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E18F9515A6CB9F004AA329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E18F7315A6CB9F004AA329 /* CustomFont */;
+			targetProxy = C1E18F9415A6CB9F004AA329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E18F8115A6CB9F004AA329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E18F8215A6CB9F004AA329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1E18F9915A6CB9F004AA329 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E18F9A15A6CB9F004AA329 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E18F9F15A6CB9F004AA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1E18FA015A6CB9F004AA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E18FA215A6CB9F004AA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFont/CustomFont-Prefix.pch";
+				INFOPLIST_FILE = "CustomFont/CustomFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1E18FA315A6CB9F004AA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFont/CustomFont-Prefix.pch";
+				INFOPLIST_FILE = "CustomFont/CustomFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1E18FA515A6CB9F004AA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFont/CustomFont-Prefix.pch";
+				INFOPLIST_FILE = "CustomFontTests/CustomFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C1E18FA615A6CB9F004AA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFont/CustomFont-Prefix.pch";
+				INFOPLIST_FILE = "CustomFontTests/CustomFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E18F6E15A6CB9F004AA329 /* Build configuration list for PBXProject "CustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E18F9F15A6CB9F004AA329 /* Debug */,
+				C1E18FA015A6CB9F004AA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E18FA115A6CB9F004AA329 /* Build configuration list for PBXNativeTarget "CustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E18FA215A6CB9F004AA329 /* Debug */,
+				C1E18FA315A6CB9F004AA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1E18FA415A6CB9F004AA329 /* Build configuration list for PBXNativeTarget "CustomFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E18FA515A6CB9F004AA329 /* Debug */,
+				C1E18FA615A6CB9F004AA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E18F6B15A6CB9F004AA329 /* Project object */;
+}
